@@ -4,9 +4,10 @@ body{
 .parent{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 0 50px;
     background-color: #47321a ;
     color: white;
+    padding: 0 px;
 }
 ul,li{
     display: flex;
@@ -16,6 +17,33 @@ ul,li{
     padding: 13px 10px;
 }
 img{
-    width: 400px;
+    width: 350px;
     float:right ;
+    background-color: #37230a;
+    padding: 77px 0;
+    padding-right: 450px;
+    
+}
+.parent1{
+    padding: 50px 50px;
+}
+
+.h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #897141;
+}
+.h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+.h3{
+    font-size:medium;
+    font-weight: 100;
+    color: white;
+}
+.heropara{
+    background-color: #37230a;
+    padding: 200px;
 }
