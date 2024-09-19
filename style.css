@@ -17,23 +17,18 @@ ul,li{
 .logo{
     padding: 13px 10px;
 }
-/* img{
-    width: 350px;
-    float:right ;
-    background-color: #37230a;
-    padding: 77px 0;
-    padding-right: 450px;
-    
-} */
- .heroimg{
-    background-color: #37230a ;
-    float: right;
-    padding-right: 250px;
-    padding-top: 15px;
-}
+
 .parent1{
-    padding: 50px 50px
-    
+    padding: 70px 0px;
+    background-color: #47321a;
+    margin: 50px;
+   
+}
+
+.heroimg{
+    float: right;
+    padding-right: 100px;
+
 }
 
 .h1{
@@ -52,14 +47,27 @@ ul,li{
     color: white;
 }
 .heropara{
+   padding: 230px;
+}
+button{
     background-color: #37230a;
-    padding: 350px;
+    color: white;
+    border: white solid 2px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+
+}
+button:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-color: #897141;
 }
 .Aboutus{
     padding: 50px 50px
 }
-.aboutusimg{
+/* .aboutusimg{
     float: left;
     background-color: #47321a;
     padding: 0px 50px
-}
+} */
