@@ -1,0 +1,17 @@
+body{
+    font-family: sans-serif;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: #47321a ;
+    color: white;
+}
+ul,li{
+    display: flex;
+    padding: 0 10px;
+}
+.logo{
+    padding: 11px 10px;
+}
