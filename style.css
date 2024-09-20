@@ -101,9 +101,11 @@ button:hover{
 }
 .Aboutus{
     padding: 50px 50px
+    
+
 }
-/* .aboutusimg{
+.aboutusimg{
     float: left;
     background-color: #47321a;
-    padding: 0px 50px
-} */
+    padding: 10px 400px
+}
