@@ -8,6 +8,7 @@ body{
     margin: 0 50px;
     background-color: #47321a ;
     color: white;
+    font-size:large;
     
 }
 ul,li{
@@ -17,7 +18,42 @@ ul,li{
 .logo{
     padding: 13px 10px;
 }
-
+.logo:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+    
+}
+.home:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
+.about:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
+.menu:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
+.brand:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
+.gallery:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
+.contact:hover{
+    background-color: #897141;
+    color: #37230a;
+    border-radius: 20px;
+}
 .parent1{
     padding: 70px 0px;
     background-color: #47321a;
