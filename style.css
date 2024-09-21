@@ -100,9 +100,7 @@ button:hover{
     border-color: #897141;
 }
 .Aboutus{
-    padding: 50px 50px
-    
-
+    padding: 50px 50px;
 }
 .aboutusimg{
     float: left;
@@ -115,8 +113,19 @@ button:hover{
     padding: 150px;
     color: white;
 }
-h1{
+.Aboutush1{
     text-decoration:#897141 underline 5px;
 } 
-
-
+.Menu{
+    background-color: #37230a;
+    padding: 50px 50px;
+    margin: 50px;
+    color: white;
+}
+.menuh1{
+    text-align: center;
+    text-decoration:#897141 underline 5px;
+}
+.menulist{
+      
+}
