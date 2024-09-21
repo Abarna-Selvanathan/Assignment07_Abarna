@@ -61,7 +61,7 @@ ul,li{
    
 }
 
-.heroimg{
+.heroimg img{
     float: right;
     padding-right: 100px;
 
@@ -103,10 +103,11 @@ button:hover{
     padding: 50px 50px;
     height: auto;
 }
-.aboutusimg{
+.aboutusimg img{
     float: left;
     background-color: #47321a;
-    padding: 50px 400px
+    padding: 50px 400px;
+    width: 400px;
 }
 .aboutuspara{
     text-align: center;
@@ -132,9 +133,11 @@ button:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.menuimg{
-    padding: 0 70px;
-    margin: 35px;   
+.menuimg img{
+    padding: 50px 70px;
+    margin: 50px;  
+    width: 500px; 
+    height: auto;
 }
 .menupara{
     text-align: center;
@@ -150,14 +153,14 @@ button:hover{
 
 }
 .Brand{
-    margin: 0 50px;
+    margin: 20px 10px;
 
 }
 .brandpara{
     text-align: center;
 }
-.brandimg{
-    width: 90%;
+.brandimg img{
+    width: 250px;
 }
 .brandimgs{
     opacity: 50%;
@@ -183,6 +186,7 @@ button:hover{
     padding: 50px 50px;
     margin: 50px;
     color: white;
+    
 }
 .galleryh1{
     text-align: center;
@@ -195,9 +199,22 @@ button:hover{
     background-color: #897141;
     margin-left: 48%;
 }
-.galleryimgs{
+.galleryimgs img{ 
+    width: 400px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+footer{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #897141;
+    color: #47321a;
+    margin: 0 50px;
+}
+
     width: 100px;
     height:min-content;
 }
+
