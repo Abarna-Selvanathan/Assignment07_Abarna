@@ -126,21 +126,47 @@ button:hover{
 }
 .menuh1{
     text-align: center;
-    text-decoration:#897141 underline 5px;
+    
 }
 .menulist{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
-
-    
 }
 .menuimg{
     padding: 0 70px;
-    margin: 35px;
-    
+    margin: 35px;   
 }
 .menupara{
     text-align: center;
     font-size: 25px;   
 } 
+.menuunderline{
+    width: 100px;
+    height: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #897141;
+    margin-left: 48%;
+
+}
+.Brand{
+    margin: 0 50px;
+
+}
+.brandpara{
+    text-align: center;
+}
+.brandimg{
+    opacity: 50%;
+    padding: 0 30px;
+    margin: 0 50px;
+
+}
+.barndunderline{
+    width: 150px;
+    height: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #897141;
+    margin-left: 47%;
+}
