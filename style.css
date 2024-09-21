@@ -157,10 +157,18 @@ button:hover{
     text-align: center;
 }
 .brandimg{
+    width: 90%;
+}
+.brandimgs{
     opacity: 50%;
-    padding: 0 30px;
+    padding: 0 50px;
     margin: 0 50px;
-
+    /* width: 500px;
+    height: auto; */
+    display: flex;
+    justify-content: space-between;
+   
+    
 }
 .barndunderline{
     width: 150px;
@@ -169,4 +177,27 @@ button:hover{
     border-radius: 10px;
     background-color: #897141;
     margin-left: 47%;
+}
+.Imagegallery{
+    background-color: #47321a;
+    padding: 50px 50px;
+    margin: 50px;
+    color: white;
+}
+.galleryh1{
+    text-align: center;
+}
+.galleryunderline{
+    width: 100px;
+    height: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #897141;
+    margin-left: 48%;
+}
+.galleryimgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100px;
+    height:min-content;
 }
