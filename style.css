@@ -134,8 +134,9 @@ button:hover{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
 }
-.menuimg img{
+.menuimg{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -144,10 +145,7 @@ button:hover{
     width: 500px; 
     height: auto;
 }
-.menupara{
-    /* text-align: center;
-    font-size: 25px;    */
-} 
+
 .menuunderline{
     width: 100px;
     height: 5px;
@@ -233,15 +231,47 @@ button:hover{
     background-color: #897141;
     margin-left: 48%;
 }
+.contactuspara{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 350px;
+}
+.contactourdetails{
+    font-size: 25px;
+}
+
+input{
+    width: 700px;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+
+.submit{
+    background-color: #47321a;
+    color: white;
+    border: #47321a solid 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 40px;
+
+
+}
 footer{
     text-align: center;
     padding: 10px 0;
     background-color: #897141;
     color: #47321a;
+
+    margin: 50px 50px;
+}
+
     margin: 0 50px;
 }
 
     width: 100px;
     height:min-content;
 }
+
 
