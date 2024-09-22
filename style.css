@@ -132,16 +132,21 @@ button:hover{
 .menulist{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
 }
 .menuimg img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 50px 70px;
     margin: 50px;  
     width: 500px; 
     height: auto;
 }
 .menupara{
-    text-align: center;
-    font-size: 25px;   
+    /* text-align: center;
+    font-size: 25px;    */
 } 
 .menuunderline{
     width: 100px;
@@ -166,8 +171,6 @@ button:hover{
     opacity: 50%;
     padding: 0 50px;
     margin: 0 50px;
-    /* width: 500px;
-    height: auto; */
     display: flex;
     justify-content: space-between;
    
@@ -199,12 +202,36 @@ button:hover{
     background-color: #897141;
     margin-left: 48%;
 }
-.galleryimgs img{ 
-    width: 400px;
-    padding: 20px;
+.galleryimgs{ 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 150px;
+    gap: 50px;
 
+}
+.galleryimg img {
+    width: 400px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+ 
+  
+}
+.Contactus{
+    background-color: #37230a;
+    color: white;
+    margin: 0 50px;
+}
+.contactush1{
+    text-align: center;
+}
+.contactusunderline{
+    width: 100px;
+    height: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #897141;
+    margin-left: 48%;
 }
 footer{
     text-align: center;
