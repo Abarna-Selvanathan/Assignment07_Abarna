@@ -134,8 +134,9 @@ button:hover{
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
 }
-.menuimg img{
+.menuimg{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -144,10 +145,7 @@ button:hover{
     width: 500px; 
     height: auto;
 }
-.menupara{
-    /* text-align: center;
-    font-size: 25px;    */
-} 
+
 .menuunderline{
     width: 100px;
     height: 5px;
@@ -232,6 +230,9 @@ button:hover{
     border-radius: 10px;
     background-color: #897141;
     margin-left: 48%;
+}
+.contactus{
+    padding-left: 500px;
 }
 footer{
     text-align: center;
